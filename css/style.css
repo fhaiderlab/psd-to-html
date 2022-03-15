@@ -1,0 +1,1205 @@
+/* Univarsal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Global CSS */
+.global-h{
+    font-size: 30px;
+    font-weight: 400;
+}
+.global-p{
+    font-size: 13px;
+    color: #97a4be;
+}
+.global-btn{
+    background: #00fff0;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid #00fff0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    box-shadow: 0px 1px 10px #04ffee;
+}
+/* Header Part */
+#header{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    padding: 20px;
+    border-bottom: 2px solid #4e596c;
+}
+.logo-part{
+    width: 30%;
+    float: left;
+}
+.logo-part img{
+
+}
+.menu-part{
+    width: 40%;
+    float: left;
+}
+.menu-part nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.btn-part{
+    width: 30%;
+    float: left;
+}
+.btn-part button{
+    border: none;
+    box-shadow: none;
+}
+.btn-part img{
+    padding: 10px 0 0 10px;
+}
+
+/* hero Section */
+#hero{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    padding: 30px;
+}
+.hero-description{
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+.hero-description h1{
+    font-size: 50px;
+    color: white;
+}
+.hero-description p{
+    padding: 25px 50px 25px 0;
+}
+
+.hero-btn button{
+    box-shadow: none;
+    font-weight: 400;
+}
+.hero-btn :nth-child(2){
+    background: transparent;
+    color: white;
+    margin-left: 20px;
+    box-shadow: 0px 1px 10px #04ffee;
+}
+.hero-img{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.hero-img img{
+    margin-bottom: -140px;
+}
+/* feature Section */
+#feature{
+    width: 100%;
+    float: left;
+    padding-top: 100px;
+}
+.feature{
+    width: 100%;
+    float: left;
+    padding: 30px;
+}
+.feature-txt{
+    text-align: center;
+}
+.feature-txt h2{
+    margin: 50px;
+}
+.feature-img img{
+    
+}
+.feature-des{
+    width: 100%;
+    float: left;
+    margin: 30px 0;
+}
+.feature-box{
+    width: 18%;
+    float: left;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #00fff0;
+    border-radius: 20px 0;
+    margin-right: 57px;
+    text-align: center;
+}
+/* section3 */
+#section3{
+    width: 100%;
+    float: left;
+    
+}
+.blank-part{
+    width: 50%;
+    float: left;
+}
+.blank-part img{
+    width: 100%;
+}
+.text-part{
+    width: 50%;
+    float: left;
+    padding: 95px;
+    background: #f5f6fa;
+    color: #323a4d;
+}
+.text-part h2{
+    margin-bottom: 30px;
+}
+.text-part p{
+
+}
+
+
+
+/* about section */
+#about{
+    width: 100%;
+}
+.about{
+    width: 100%;
+    float: left;
+}
+.about-description{
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 8% 5%;
+}
+.about-description h1{
+    color: #303030;
+    margin: 30px 0;
+}
+.about-description p{
+    font-size: 14px;
+}
+.about-description button{
+    margin-top: 30px;
+}
+.about-img{
+    width: 60%;
+    float: left;
+    padding: 30px 160px;   
+}
+
+
+
+/* whitee mob part start */
+
+#white-mob{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.white-mob-img{
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 30px 160px;
+}
+.white-mob-img img{
+    width: 35%;
+    position: absolute;
+    bottom: -90px;
+    left: 193px;
+}
+.white-mob-tab{
+    width: 60%;
+    float: left;
+    padding: 30px 160px;   
+}
+.tabbox{
+    margin: 30px 0;
+    box-shadow: 3px 5px 10px #a7a4a4;
+    padding: 20px;
+    border-radius: 10px;
+}
+.tabbox p{
+    position: relative;
+    left: 50px;
+    bottom: 23px;
+    padding-right: 90px;
+}
+.tabbox h2{
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+.tabbox:hover{
+    transition-delay: 100ms;
+    background: #35b8f6;
+    color: white;
+}
+
+
+
+
+
+/* About Add part */
+#abt-add{
+    width: 100%;
+    float: left;
+    background: #fafafc;
+}
+.abt-add{
+    width: 100%;
+    float: left;
+    padding: 50px 0 0;
+}
+.add-img{
+    width: 50%;
+    float: left;
+}
+
+.add-des{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding: 30px 100px 0 0;
+}
+.add-des h1{
+    color: black;
+    padding: 25px 0;
+}
+.add-des p{
+    padding: 0 0 0 150px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.checkbox{
+    margin: 15px;
+}
+.label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* video Section */
+#video{
+    width: 100%;
+    float: left;
+    background-color: #323a4d;
+    text-align: center;
+    padding: 100px;
+    margin-top: -58px;
+}
+#video img{
+    margin: 20px 0;
+}
+#video h2{
+    color: white;
+    margin: 20px 0;
+}
+#video p{
+    padding: 0 203px;
+}
+
+
+/* Download Start */
+#download{
+    width: 100%;
+    float: left;
+    background: url(../img/map.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+}   
+#download h2{
+    margin: 25px 0;
+}
+#download P{
+    margin: 30px;
+    color: black;
+}
+#download button{
+    font-weight: 400;
+    box-shadow: 3px 5px 10px #00fff0;
+}
+
+
+/* Message part start */
+#message{
+    width: 100%;
+    float: left;
+    background-color: #323a4d;
+    text-align: center;
+    padding: 100px 325px;
+}
+#message P{
+    color: #00fff1;
+}
+
+
+
+
+/* APP PART */
+#app{
+    width: 100%;
+    float: left;
+    background-color: #f5f6fa;
+}
+.app{
+    width: 100%;
+    float: left;
+    padding: 100px ;
+}
+.app-img{
+    width: 50%;
+    float: left;
+}
+.app-img img{
+    width: 100%;
+} 
+
+.app-des{
+    width: 50%;
+    float: left;
+    padding: 150px 50px 0 90px;
+}
+.app-des h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+.app-des p{
+    color: #97a4be;
+    margin: 40px 0;
+    line-height: 2;
+    text-align: justify;
+}
+.app-des img{
+    padding: 0 20px 0 0
+}
+/* info part */
+#info{
+    width: 100%;
+    float: left;
+}
+.info{
+
+}
+.pink-btn{
+    width: 350px;
+    padding: 20px;
+    background: #00fff0;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: -30px;
+}
+.pink-btn h4{
+    font-weight: 400;
+    color: black;
+}
+.pink-btn a{
+    text-decoration: none;
+}
+.info-table{
+    width: 100%;
+    float: left;
+    padding: 50px 100px 0 300px;
+}
+.info-list{
+    width: 25%;
+    float: left;
+}
+.info-list ul li{
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    color: #303030;
+    font-size: 14px;
+}
+.info-list ul li h2{
+    font-family: 'Work Sans', sans-serif;
+    color: #303030;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+.contact h1{
+    color: black;
+    margin: 30px 0;
+}
+.contact p{
+    margin-bottom: 50px;
+}
+.contact input{
+    width: 500px;
+    padding: 15px 10px;
+    border: none;
+    font-size: 22px;
+    background: #f6f7fb;
+}
+.contact button{
+    background: #00fff0;
+    color: black;
+    padding: 20px 0;
+    margin-left:20px ;
+}
+.contact input::placeholder{
+    text-align: center;
+    font-size: 17px;
+}
+/* footer part */
+#footer{
+    width: 100%;
+    float: left;
+    background: #233148;
+}
+.footer{
+    width: 100%;
+    float: left;
+    padding: 35px;
+}
+.copyright-part{
+    width: 30%;
+    float: left;
+}
+.copyright-part p{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+.icon-part{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.icon-part img{
+    padding: 0 20px;
+
+}
+
+
+
+/* <<<<<< Responsive Start >>>>>>*/
+
+/* for mobile Device screen */
+@media (min-width:300px) and (max-width:600px){
+    /* Header part */
+    .logo-part{
+        width: 20%;
+    }
+    .logo-part img{
+        width: 50%;
+    }
+    .btn-part img{
+        display: none;
+    }
+    .btn-part button{
+        width: 65%;
+    }
+    .menu-part nav ul li{
+        display: block;
+    }
+
+    /* Hero Part */
+    .hero-description{
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+    }
+    .hero-description p{
+        padding: 0;
+        text-align: justify;
+        margin: 20px 0;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .hero-btn{
+        display: block;
+        text-align: center;
+    }
+    .hero-btn :nth-child(2){
+        margin: 20px 20px;
+    }
+    
+    /* feature Section */
+    .feature{
+        padding: 10px;
+    }
+    .feature-txt{
+        width: 100%;
+        margin: 0;
+    }
+    .feature-txt h2{
+        margin: 0;
+    }
+    .feature-des{
+        width: 100%;
+        display: block;
+    }
+    .feature-box{
+        width: 100%;
+        display: block;
+        margin: 10px 10px 0;
+    }
+
+    /* Section3 */
+    .blank-part{
+        width: 100%;
+    }
+    .text-part{
+        width: 100%;
+        text-align: justify;
+        padding: 30px;
+    }
+
+    /* About */
+    .about-description{
+        width: 100%;
+        text-align: justify;
+    }
+    .about-description p
+    .about-img{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+
+    /* White Mob part */
+    #white-mob{
+        width: 100%;
+        float: left;
+        position: static;
+    }
+    .white-mob-img{
+        width: 100%;
+        text-align: center;
+    }
+    .white-mob-img img{
+        width: 250%;
+        position: static;
+    }
+    .white-mob-tab{
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* about add part */
+    .abt-add{
+        padding: 0;
+    }
+    .add-des{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .add-img{
+        width: 100%;
+    }
+    .add-img img{
+        width: 100%;
+    }
+    .add-des p{
+        padding: 10px;
+        text-align: justify;
+    }
+
+    /* video part */
+    #video {
+        padding: 20px;
+        margin-top: -58px;
+    }
+    #video p{
+        padding: 10px;
+    }
+
+    /* Download Part */
+    #download{
+    
+    }
+
+    /* Message section */
+    #message{
+        padding: 40px 20px;
+    }
+    #message p{
+        text-align: justify;
+    }
+
+    /* App part */
+    .app{
+        padding: 20px;
+    }
+    .app-img{
+        width: 100%;
+    }
+    .app-des{
+        width: 100%;
+        padding: 20px;
+    }
+    .app-des :nth-child(4) img{
+        margin-bottom: 10px;
+    }
+
+    /* info part */
+    .pink-btn{
+        width: 75%;
+        position: static;
+        margin: -30px auto 0;
+    }
+    .info{
+        width: 100%;
+        float: left;
+    }
+    .info-table{
+        width: 100%;
+        padding: 10px;
+    }
+    .info-list{
+        width: 25%;
+    }
+    .contact input{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    /* Footer part */
+    .footer{
+        padding: 10px 35px;
+    }
+    .copyright-part p {
+        font-size: 10px;
+    }
+    .icon-part img {
+        padding: 0 5px;
+    }
+}
+
+
+/* for Tablet Device screen */
+@media (min-width:600px) and (max-width:768px){
+    /* Header part */
+    .btn-part img{
+        display: none;
+    }
+    .menu-part nav ul li{
+        display: block;
+    }
+    
+    /* Hero Part */
+    .hero-description{
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+    }
+    .hero-description p{
+        padding: 0;
+        text-align: justify;
+        margin: 20px 0;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .hero-btn{
+        display: block;
+        text-align: center;
+    }
+    .hero-btn :nth-child(2){
+        margin: 20px 20px;
+    }
+
+    /* feature Section */
+    .feature{
+        padding: 10px;
+    }
+    .feature-txt{
+        width: 100%;
+        margin: 0;
+    }
+    .feature-txt h2{
+        margin: 0;
+    }
+    .feature-des{
+        width: 100%;
+        display: block;
+    }
+    .feature-box{
+        width: 100%;
+        display: block;
+        margin: 30px;
+    }
+
+    /* Section3 */
+    .blank-part{
+        width: 100%;
+    }
+    .text-part{
+        width: 100%;
+        text-align: center;
+    }
+
+        /* About */
+    .about-description{
+        width: 100%;
+        text-align: center;
+    }
+    .about-img{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+
+    /* White Mob part */
+    #white-mob{
+        width: 100%;
+        float: left;
+        position: static;
+    }
+    .white-mob-img{
+        width: 100%;
+        text-align: center;
+    }
+    .white-mob-img img{
+        width: 150%;
+        position: static;
+    }
+    .white-mob-tab{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    /* about add part */
+    .abt-add{
+        padding: 0;
+    }
+    .add-des{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .add-img{
+        width: 100%;
+    }
+    .add-img img{
+        width: 100%;
+    }
+    .add-des p{
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    /* video part */
+    #video {
+        padding: 20px;
+        margin-top: -65px;
+    }
+    #video p{
+        padding: 10px;
+    }
+    
+    /* Message section */
+    #message{
+        padding: 40px 20px;
+    }
+    #message p{
+        text-align: justify;
+    }
+    
+    /* App part */
+    .app{
+        padding: 20px;
+    }
+    .app-img{
+        width: 100%;
+    }
+    .app-des{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    /* info part */
+    .pink-btn{
+        position: static;
+        margin: -30px auto 0;
+    }
+    .info{
+        width: 100%;
+        float: left;
+    }
+    .info-table{
+        width: 100%;
+        padding: 10px;
+    }
+    .info-list{
+        width: 25%;
+    }
+    .contact input{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    /* Footer part */
+    .footer{
+        padding: 10px 35px;
+    }
+    .copyright-part p {
+        font-size: 10px;
+    }
+    .icon-part img {
+        padding: 0 5px;
+    }
+}
+
+
+
+/* for Landscape Tablet Device screen */
+@media (min-width:769px) and (max-width:900px){
+    /* Header part */
+    .btn-part button{
+        width: 75%;
+    }
+    
+    /* Hero Part */
+    .hero-description{
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+    }
+    .hero-description p{
+        padding: 0;
+        text-align: justify;
+        margin: 20px 0;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .hero-btn{
+        display: block;
+        text-align: center;
+    }
+    .hero-btn :nth-child(2){
+        margin: 20px 20px;
+    }
+
+    /* feature Section */
+    .feature{
+        padding: 10px;
+    }
+    .feature-txt{
+        width: 100%;
+        margin: 0;
+    }
+    .feature-txt h2{
+        margin: 0;
+    }
+    .feature-des{
+        width: 100%;
+        display: block;
+        
+    }
+    .feature-box{
+        width: 100%;
+        display: block;
+        margin: 30px;
+    }
+
+    /* Section3 */
+    .blank-part{
+        width: 100%;
+    }
+    .text-part{
+        width: 100%;
+        text-align: center;
+    }
+
+        /* About */
+    .about-description{
+        width: 100%;
+        text-align: center;
+    }
+    .about-img{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+
+    /* White Mob part */
+    #white-mob{
+        width: 100%;
+        float: left;
+        position: static;
+    }
+    .white-mob-img{
+        width: 100%;
+        text-align: center;
+    }
+    .white-mob-img img{
+        width: 150%;
+        position: static;
+    }
+    .white-mob-tab{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    /* about add part */
+    .abt-add{
+        padding: 0;
+    }
+    .add-des{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .add-img{
+        width: 100%;
+    }
+    .add-img img{
+        width: 100%;
+    }
+    .add-des p{
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    /* video part */
+    #video {
+        padding: 20px;
+        margin-top: -75px;
+    }
+    #video p{
+        padding: 10px;
+    }
+    
+    /* Message section */
+    #message{
+        padding: 40px 20px;
+    }
+    #message p{
+        text-align: justify;
+    }
+    
+    /* App part */
+    .app{
+        padding: 20px;
+    }
+    .app-img{
+        width: 45%;
+    }
+    .app-des{
+        width: 45%;
+        padding: 20px;
+    }
+    
+    /* info part */
+    .pink-btn{
+        position: static;
+        margin: -30px auto 0;
+    }
+    .info{
+        width: 100%;
+        float: left;
+    }
+    .info-table{
+        width: 100%;
+        padding: 10px;
+    }
+    .info-list{
+        width: 25%;
+    }
+    .contact input{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    /* Footer part */
+    .footer{
+        padding: 10px 35px;
+    }
+    .copyright-part p {
+        font-size: 10px;
+    }
+    .icon-part img {
+        padding: 0 5px;
+    }
+
+}
+
+
+
+/* for Laptop Device screen */
+@media (min-width:901px) and (max-width:1200px){
+     /* Hero Part */
+    .hero-img img {
+        margin-bottom: -140px;
+    }
+    .hero-btn{
+        display: block;
+        text-align: center;
+    }
+    .hero-btn :nth-child(2){
+        margin: 20px 20px;
+    }
+
+    /* Feature Section */
+    .feature-des{
+        width: 100%;
+        
+    }
+    .feature-box{
+        width: 45%;
+        display: block;
+        margin: 10px;
+    }
+
+    /* Section3 */
+    .blank-part{
+        width: 50%;
+    }
+    .text-part{
+        width: 50%;
+        padding: 35px;
+        text-align: center;
+    }
+
+        /* About */
+    .about-description{
+        width: 45%;
+        text-align: center;
+    }
+    .about-img{
+        width: 45%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* White Mob part */
+    #white-mob{
+        width: 100%;
+        float: left;
+        position: static;
+    }
+    .white-mob-img{
+        width: 50%;
+        text-align: center;
+    }
+    .white-mob-img img{
+        width: 100%;
+        position: static;
+    }
+    .white-mob-tab{
+        width: 50%;
+        padding: 20px;
+    }
+    
+    /* about add part */
+    .abt-add{
+        padding: 0;
+    }
+    .add-des{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .add-img{
+        width: 100%;
+    }
+    .add-img img{
+        width: 100%;
+    }
+    .add-des p{
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    /* video part */
+    #video {
+        padding: 20px;
+        margin-top: -100px;
+    }
+    #video p{
+        padding: 10px;
+    }
+    
+    /* Message section */
+    #message{
+        padding: 40px 20px;
+    }
+    #message p{
+        text-align: justify;
+    }
+    
+    /* App part */
+    .app{
+        padding: 20px;
+    }
+    .app-img{
+        width: 45%;
+    }
+    .app-des{
+        width: 45%;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    /* info part */
+    .pink-btn{
+        position: static;
+        margin: -30px auto 0;
+    }
+    .info{
+        width: 100%;
+        float: left;
+    }
+    .info-table{
+        width: 100%;
+        padding: 10px;
+    }
+    .info-list{
+        width: 25%;
+    }
+    .contact input{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    /* Footer part */
+    .footer{
+        padding: 10px 35px;
+    }
+    .copyright-part p {
+        font-size: 10px;
+    }
+    .icon-part img {
+        padding: 0 5px;
+    }
+
+}
